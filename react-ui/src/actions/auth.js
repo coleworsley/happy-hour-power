@@ -14,7 +14,7 @@ export const tokenError = (error) => {
 
 export const generateToken = () => {
   return dispatch => {
-    fetch('api/v1/auth', {
+    fetch('/api/v1/auth', {
       headers: {
         'Content-Type': 'application/json',
       },
